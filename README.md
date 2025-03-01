@@ -34,10 +34,10 @@ To use Graph Ping, you need to have Python installed on your machine. Follow the
 To start using Graph Ping, run the following command:
 
 ```sh
-python ping.py example.com
+python ping.py example.com -c 1000
 ```
 
-- `-c`: count of packets.
+- `-c`: count of packets (100 by default).
 
 ## Example
 
