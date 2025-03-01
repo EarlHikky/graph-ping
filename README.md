@@ -34,7 +34,7 @@ To use Graph Ping, you need to have Python installed on your machine. Follow the
 To start using Graph Ping, run the following command:
 
 ```sh
-python ping.py --host example.com --interval 1 --duration 60
+python ping.py example.com
 ```
 
 - `--host`: The target host to ping (default is `example.com`).
@@ -46,7 +46,7 @@ python ping.py --host example.com --interval 1 --duration 60
 Here is an example command to ping `google.com` every second for one minute and visualize the results:
 
 ```sh
-python graph_ping.py --host google.com --interval 1 --duration 60
+python ping.py google.com
 ```
 
 ## License
