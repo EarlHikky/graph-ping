@@ -37,9 +37,7 @@ To start using Graph Ping, run the following command:
 python ping.py example.com
 ```
 
-- `--host`: The target host to ping (default is `example.com`).
-- `--interval`: Time interval between pings in seconds (default is `1` second).
-- `--duration`: Total duration for which the pings should be sent in seconds (default is `60` seconds).
+- `-c`: count of packets.
 
 ## Example
 
